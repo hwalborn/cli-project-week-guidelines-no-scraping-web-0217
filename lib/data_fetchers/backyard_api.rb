@@ -16,8 +16,11 @@ class GetCommunityGardensAPI
       address = garden["address"]
       borough = garden["boro"]
       cross_streets = garden["cross_streets"]
-      new_garden = Garden.new(name, address, borough, cross_streets)
-      @community_gardens << new_garden
+      @community_gardens << make_garden(name, address, borough, cross_streets)
     }
+  end
+
+  def make_garden (name, address, borough, cross_streets)
+    Garden.new(name, address, borough, cross_streets)
   end
 end

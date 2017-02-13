@@ -1,4 +1,4 @@
-
+<!-- 
 # Project Week 1
 
 ## Contents
@@ -158,4 +158,12 @@ Test your app. Refer to tests for [Playlister CLI](https://github.com/flatiron-s
 * [RSpec Docs](https://www.relishapp.com/rspec)
 * [Playlister CLI](https://github.com/flatiron-school-ironboard/playlister-cli-bk-002)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cli-project-week-guidelines' title='Project Week 1'>Project Week 1</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cli-project-week-guidelines' title='Project Week 1'>Project Week 1</a> on Learn.co and start learning to code for free.</p> -->
+
+# Welcome to *NYC'S BACKYARD*
+
+##About
+
+NYC's Backyard is a CLI program that will find all Community Gardens by Name, Borough, or Neighborhood
+
+Simply follow the prompts in the Terminal and find your nearest Backyard

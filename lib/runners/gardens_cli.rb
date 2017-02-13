@@ -2,7 +2,7 @@ class GardensCLI
 
     def call
       puts "Welcome to NYC's Backyard!"
-      run 
+      run
     end
 
     def get_user_input
@@ -21,9 +21,8 @@ class GardensCLI
       elsif search_for == "help"
         help
       end
-      # binding.pry
       while search_for != "neighborhood" && search_for != "borough" && search_for != "garden name"
-        puts "That is an invalid choice, please try again"
+        invalid_choice(search_for)
         run
       end
       puts"Which #{search_for}?"
@@ -103,5 +102,12 @@ class GardensCLI
       else
         exit
       end
+    end
+
+    def invalid_choice(search_for)
+      puts"\n" +
+      "*" * 30 + "\n" +
+      "#{search_for} is an invalid choice, please try again" + "\n" +
+      "*" * 30
     end
 end
